@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Opleiding, Frontend">
+		<meta name="keywords" content="Frontend, Opleiding">
+	</head>
+	<body>
+		<section>
+			<h1>Aanmelden</h1>
+			<article>
+				<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+				Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+				lopen de studenten stage, in het tweede en afstudeerjaar.<br>
+
+				<em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+				Amsterdam.</em><br>
+				Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+				Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+				Voor vragen of opmerkingen kunt u <a href="contact.html">contact</a> met ons op.</p>
+
+				<form action="aanmelden.asp">
+					<h2>Contactgegevens:</h2><br>
+					<label for="naam">Naam</label> <input type="text" name="naam" id="naam" autofocus><br>
+					<label for="bedrijf">Bedrijf</label> <input type="text" name="bedrijf" id="bedrijf"><br>
+					<label for="adres">Adres</label> <input type="text" name="adres" id="adres"><br>
+					<label for="postcode">Postcode</label> <input type="text" name="postcode" id="postcode"><br>
+					<label for="plaats">Plaats</label> <input type="text" name="plaats" id="plaats"><br>
+					<label for="telefoon">Telefoon</label> <input type="text" name="telefoon" id="telefoon"><br>
+					<label for="email">Email</label> <input type="text" name="email" id="email"><br>
+
+					<b>Ik wil mijn aanmelden:</b><br>
+					<label for="project">Voor een project</label> <input type="radio" name="aanmelden" id="project"><br>
+					<label for="stage">Als stagebedrijf</label> <input type="radio" name="aanmelden" id="stage"><br>
+
+					<h2>Project:</h2><br>
+					<label for="titel">Titel</label> <input type="text" name="titel" id="titel"><br>
+					<label for="opdrachtomschrijving">Opdrachtomschrijving</label> <input type="text" name="opdrachtomschrijving" id="opdrachtomschrijving"><br>
+					<label for="doelgroepomschrijving">Doelgroepomschrijving</label> <input type="text" name="doelgroepomschrijving" id="doelgroepomschrijving"><br>
+					<label for="doelstelling">Doelstelling/ intentie van het project</label> <input type="text" name="doelstelling" id="doelstelling"><br>
+					<label for="looptijd">Looptijd</label> <input type="text" name="looptijd" id="looptijd"><br>
+					<label for="deadline">Deadline</label> <input type="text" name="deadline" id="deadline"><br>
+
+					<b>Geschikt voor:</b><br>
+					<input list="hoeveeljaars">
+					<datalist id="hoeveeljaars">
+					  <option value="eerstejaars studenten">
+					  <option value="tweedejaars studenten">
+					  <option value="derdejaars studenten">
+					  <option value="afstudeer studenten">
+					  <option value="onbekend">
+					</datalist><br>
+					<label for="opmerkingproject">Opmerking:</label> <input type="text" name="opmerkingproject" id="opmerkingproject"><br>
+
+
+					<h2>Stage:</h2><br>
+					<b>Geschikt voor:</b><br>
+					<input list="hoeveeljaarsstage">
+					<datalist id="hoeveeljaarsstage">
+					  <option value="tweedejaars studenten">
+					  <option value="afstudeer studenten">
+					  <option value="onbekend">
+					</datalist><br>
+
+					<b>Hoelang is de stage?</b><br>
+					<label for="tien">10 weken</label> <input type="radio" name="hoelang" id="tien"><br>
+					<label for="twintig">20 weken</label> <input type="radio" name="hoelang" id="twintig"><br>
+
+					<b>Beschrijving werkzaamheden:</b><br>
+					<label for="werkzaamheden">Beschrijving werkzaamheden:</label> <input type="text" name="werkzaamheden" id="werkzaamheden"><br>
+
+					<b>Beschrijving stagebedrijf:</b><br>
+					<label for="bedrijfsnaam">Bedrijfsnaam</label> <input type="text" name="bedrijfsnaam" id="bedrijfsnaam"><br>
+					<label for="adresstage">Adres</label> <input type="text" name="adresstage" id="adresstage"><br>
+					<label for="postcodestage">Postcode</label> <input type="text" name="postcodestage" id="postcodestage"><br>
+					<label for="plaatsstage">Plaats</label> <input type="text" name="plaatsstage" id="plaatsstage"><br>
+					<label for="sector">Sector</label> <input type="text" name="sector" id="sector"><br>
+					<label for="core">Core Business</label> <input type="text" name="core" id="core"><br>
+
+					<label for="opmerkingstage">Opmerking:</label> <input type="text" name="opmerkingstage" id="opmerkingstage"><br>
+				</form>
+			</article>
+		</section>
+	</body>
+</html>
